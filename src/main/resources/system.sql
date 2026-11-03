@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS escola_api;
+
+USE escola_api;
+
+CREATE TABLE IF NOT EXISTS estudante (
+
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+
+    nome VARCHAR(255) NOT NULL,
+
+    apelido VARCHAR(255) NOT NULL,
+
+    curso VARCHAR(255) NOT NULL,
+
+    idade INT NOT NULL
+
+);
